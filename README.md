@@ -1,5 +1,7 @@
 ## Authenticating function to function calls 
 
+![Architecture Diagram](./docs/img/cf2cf.png)
+
 Demo to show how to configure an invoker Cloud Function 2nd Gen to call a second invokee Cloud Function 2nd Gen. Official Google documentation [here](https://cloud.google.com/functions/docs/securing/authenticating#functions-bearer-token-example-python). Chosen runtime Python 3.10.
 
 `main.tf` includes:
